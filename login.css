@@ -198,19 +198,16 @@ body{
     transform: translateX(200%);
 }
 
-/* Responsive Adjustments 
+
 @media only screen and (max-width: 768px) {
 
-    box-sizing: border-box;
+   *{ box-sizing: border-box;
     margin: 0;
     padding: 0;
 
 }
 
 
-    body{
-        background-color: #b;
-    }
     .container {
       width: 100%;
       border-radius: 0;
@@ -241,21 +238,21 @@ body{
       transform: translateX(-100%);
     }
   
-    /* Adjust form elements for smaller screens 
+  
     .container form {
-      padding: 0 20px; /* Adjust as needed 
+      padding: 0 20px; 
     }
   
     .container input,
     .container button {
-      width: calc(100% - 20px); /* Adjust as needed 
+      width: calc(100% - 20px); 
     }
   
-    /* Add more specific styles for smaller screens as needed 
+    
   }
-  */
 
-@media(max-width:530px){
+
+@media (max-width:530px) {
      body{
         background: red;
 
